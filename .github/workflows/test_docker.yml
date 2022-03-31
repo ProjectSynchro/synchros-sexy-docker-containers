@@ -7,20 +7,20 @@ jobs:
       fail-fast: true
       matrix:
         include:
-          - context: "naev-linux-archaic"
-            imagename: "naev-linux-archaic"
-          - context: "naev-linux-lts"
-            imagename: "naev-linux-lts"
-          - context: "naev-linux-latest"
-            imagename: "naev-linux-latest"
-          - context: "naev-steamruntime"
-            imagename: "naev-steamruntime"
+#          - context: "naev-linux-archaic"
+#            imagename: "naev-linux-archaic"
+#          - context: "naev-linux-lts"
+#            imagename: "naev-linux-lts"
+#          - context: "naev-linux-latest"
+#            imagename: "naev-linux-latest"
+#          - context: "naev-steamruntime"
+#            imagename: "naev-steamruntime"
           - context: "naev-windows"
             imagename: "naev-windows"
-          - context: "naev-macos"
-            imagename: "naev-macos"
+#          - context: "naev-macos"
+#            imagename: "naev-macos"
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout Repository
