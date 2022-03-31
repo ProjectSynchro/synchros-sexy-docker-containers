@@ -33,6 +33,7 @@ jobs:
           images: ghcr.io/naev/${{ matrix.imagename }}
 
       - name: Build and push
+        uses: elgohr/Publish-Docker-Github-Action@master
         id: docker_build
         with:
           name: ghcr.io/naev/${{ matrix.imagename }}
