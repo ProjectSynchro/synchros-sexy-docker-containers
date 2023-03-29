@@ -1,3 +1,5 @@
+# ARCHIVED continued in: https://github.com/naev/naev-infrastructure
+
 # Naev Build Infrastructure
 This repository contains Dockerfiles for all of the [Naev Project](https://github.com/naev/naev)'s CI and CD build images.
 
